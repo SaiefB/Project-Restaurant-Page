@@ -1,3 +1,6 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 /* styles.css */
 *{
   margin: 0;
@@ -6,6 +9,87 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* Primary Colors */
+  --primary-brown: #8B4513; /* Warm Maple Brown */
+  --primary-amber: #DAA520; /* Forest Green */
+
+  /* Accent Colors */
+  --accent-green: #2e8b57; /* Golden Amber */
+
+  /* Neutral Colors */
+  --neutral-cream: #FAF3E0; /* Off-White */
+  --neutral-grey: #2F4F4F; /* Charcoal Grey */
+}
+
+/* General Styles */
+header {
+  display: flex;
+  justify-content: center;
+  padding: 10px
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+nav button {
+  color: var(--primary-amber);
+  background-color: var(--neutral-cream);
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid var(--primary-amber);
+}
+
+nav button:hover {
+  color: var(--accent-green);
+  border: 2px solid var(--accent-green);
+  background-color: var(--primary-amber);
+}
+
+#content {
+  background-color: var(--primary-amber);
+  width: 900px;
+  margin: 30px auto 30px auto;
+  padding: 30px 30px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  margin: 10px auto 10px auto;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  border: 5px solid var(--primary-brown);
+  width: 600px;
+  background-color: var(--neutral-cream);
+  color: var(--primary-brown);
+}
+
+h2 {
+  margin: 10px;
+  border: 5px solid var(--primary-brown);
+  background-color: var(--neutral-cream);
+  color: var(--primary-brown);
+}
+
+p {
+  text-align: center;
+}
+
+/* Header/ Nav */
+header {
+  background-color: var(--primary-brown);
+}
+
 body {
-    background-color: rgb(172, 172, 172);
-  }
+    background-color: var(--neutral-cream)
+}
+
+
+

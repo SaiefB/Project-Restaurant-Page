@@ -1,11 +1,22 @@
 import "./styles.css";
 
-import {initialPageLoad} from "./home"
+import {initialPageLoad} from "./home";
 
-const contentDiv = document.getElementById("content");
-contentDiv.innerHTML = "";
+import {loadMenu} from "./menu";
 
-const homeReload = initialPageLoad()
-const homeBtn = document.getElementById("homeBtn")
+import {loadAbout} from "./about";
+
+/* const contentDiv = document.getElementById("content");
+initialPageLoad();
+
+const homeReload = initialPageLoad;
+const homeBtn = document.getElementById("homeBtn");
 homeBtn.addEventListener("click", homeReload);
-/* initialPageLoad(); */
+
+const menuReload = loadMenu;
+const menuBtn = document.getElementById("menuBtn");
+menuBtn.addEventListener("click", menuReload);
+
+const aboutReload = loadAbout;
+const aboutBtn = document.getElementById("aboutBtn");
+aboutBtn.addEventListener("click", aboutReload); */

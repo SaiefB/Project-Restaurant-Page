@@ -6,7 +6,7 @@ import {loadMenu} from "./menu";
 
 import {loadAbout} from "./about";
 
-/* const contentDiv = document.getElementById("content");
+const contentDiv = document.getElementById("content");
 initialPageLoad();
 
 const homeReload = initialPageLoad;
@@ -19,4 +19,4 @@ menuBtn.addEventListener("click", menuReload);
 
 const aboutReload = loadAbout;
 const aboutBtn = document.getElementById("aboutBtn");
-aboutBtn.addEventListener("click", aboutReload); */
+aboutBtn.addEventListener("click", aboutReload);
